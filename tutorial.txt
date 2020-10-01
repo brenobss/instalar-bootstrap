@@ -1,0 +1,17 @@
+# Como instlar bootstrap no projeto
+
+- Fazer o download do "Compiled CSS and JS" no site do
+bootstrap
+
+- Extrair o que tiver em "js" para src/assets/js
+- Extrair o que tiver em "css" para src/assets/css
+- Faça os links no html para os arquivos "bootstrap.min.js" e "bootstrap.min.css", EXEMPLO: 
+
+<script src="../src/assets/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../src/assets/css/bootstrap.min.css">
+
+- Procure no google "jquery cdn", copie o link cdn do jquery.min.js e coloque no index.html, EXEMPLO:
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+- Pode criar os links para o style.css e main.js, como preferir, não interfere no bootstrap
